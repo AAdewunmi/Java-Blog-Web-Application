@@ -250,6 +250,6 @@ $(document).ready(function() {
 				</div>
 
 				</div></div>
-				</body>
+				</body>                                                         
 <jsp:include page="footer.html"></jsp:include>
 </html>
