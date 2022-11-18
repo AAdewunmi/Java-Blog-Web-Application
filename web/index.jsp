@@ -48,7 +48,6 @@ $(document).ready(function() {
 
 <link href="style.css" rel="stylesheet" type="text/css" /> 
 
-
 		
 </head>
 
@@ -252,7 +251,5 @@ $(document).ready(function() {
 
 				</div></div>
 				</body>
-
-
 <jsp:include page="footer.html"></jsp:include>
 </html>
