@@ -2,11 +2,11 @@
 
 # Project Title:
 
-Blog and Report Web Application 
+Blog and Report Abuse Web Application 
 
 ## 1. What is the project?
 
-Blog and Report Web Application built using Java technologies.
+Blog and Report Abuse Web Application built using Java technologies.
 
 The application will comprise of two users and accompaning capabilities.
 
