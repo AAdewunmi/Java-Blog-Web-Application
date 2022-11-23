@@ -263,7 +263,7 @@ var txtsl4 = '<B>PoliceStation:</B>';
 */
 SList.slist2 = {
  "India": ['UttarPradesh', 'MadhyaPradesh'],
- "s1_opt2": ['s1o2_opt1', 's1o2_opt2'],
+ "s1_opt2": ['s1o2_opt1', 's1o2_opt2']
 };
 
 /*
@@ -275,7 +275,7 @@ SList.slist3 = {
  "UttarPradesh": ['Ghaziabad', 'Etawah'],
  "s1o1_opt2": ['s2o1_2_opt1', 's2o1_2_opt2'],
  "s1o2_opt1": ['s2o2_1_opt1', 's2o2_1_opt2'],
- "s1o2_opt2": ['s2o2_2_opt1', 's2o2_2_opt2'],
+ "s1o2_opt2": ['s2o2_2_opt1', 's2o2_2_opt2']
 };
 
 /*
@@ -291,7 +291,7 @@ SList.slist4 = {
  "s2o2_1_opt1": 'Content for s2o2_1_opt1',
  "s2o2_1_opt2": 'Content for s2o2_1_opt2',
  "s2o2_2_opt1": 'Content for s2o2_2_opt1',
- "s2o2_2_opt2": 'Content for s2o2_2_opt2',
+ "s2o2_2_opt2": 'Content for s2o2_2_opt2'
 };
 
 
@@ -305,7 +305,7 @@ SList.getSelect = function(slist, option) {
 
   if(SList[slist][option]) {
     // if option from the last Select, add text-content, else, set dropdown list
-    if(slist == 'scontent') document.getElementById('scontent').innerHTML = SList[slist][option];
+    if(slist === 'scontent') document.getElementById('scontent').innerHTML = SList[slist][option];
     else {
       var addata = '<option>Select Please</option>';
       for(var i=0; i<SList[slist][option].length; i++) {
@@ -330,18 +330,18 @@ SList.getSelect = function(slist, option) {
   }
   else {
     // empty the tags for select lists
-    if(slist == 'slist2') {
+    if(slist === 'slist2') {
       document.getElementById('slist2').innerHTML = '';
       document.getElementById('slist3').innerHTML = '';
     }
-    else if(slist == 'slist3') {
+    else if(slist === 'slist3') {
       document.getElementById('slist3').innerHTML = '';
     }
-    else if(slist == 'slist4') {
+    else if(slist === 'slist4') {
       document.getElementById('slist4').innerHTML = '';
     }
   }
-}
+};
 --></script>
 						
 							
