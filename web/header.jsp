@@ -55,7 +55,6 @@ $(document).ready(function() {
 					<img src="images/page1-img3.png" align="left"></img>
 					<br/>
 					<br/><span><font style="color:maroon" size="32"><b>Connect Globe</b></font></span>
-	
 					<%
 					 System.out.print("hur"+session.getAttribute("username"));
 					 %>
