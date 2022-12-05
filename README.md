@@ -1,45 +1,77 @@
-# $$\textcolor{red}{\text{UNDER CONSTRUCTION}}$$
-
 # Project Title:
 
 Blog and Report Abuse Web Application 
 
-## 1. What is the project?
+## 1. Project Description
 
-Blog and Report Abuse Web Application built using Java technologies.
+This is a Blog and Report Abuse Web Application built using Java technologies.
 
 The application will comprise of two users and accompaning capabilities.
 
 - Administrator:
-1. Create and post a topic
-2. Delete any abusive report
-3. View all reports and topics to be discussed
-4. Can view posted comments
+1. Login (Username / Password: admin, admin)
+2. View Registered Users 
+3. View Users Discussion
+4. View Users Advice
+5. View Reports By Area
+6. View Report Status
+7. View Posted Reports
+8. Log out
 
 - Users:
-1. Can create post
-2. Can view all posts
-3. Can search all posts
-4. Can view previous post
-5. Can delete a post
+1. Register / Login 
+2. View Registered Users 
+3. View Users Discussion
+4. View Users Advice
+5. View Reports By Area
+6. View Report Status
+7. View Posted Reports
+8. Log out
 
 ## 2. Tech Stack:
 
-- HTML/CSS/JavaScript
+- HTML / CSS / JavaScript
 - Bootstrap
 - Java 11
 - JavaEE 7
 - Java JSP / Servlet
+- Java JDBC Driver
 - MySQL Database 
 
-## 3. What is the MVP?
-The minimal viable product is a Blog application that renders in a web browsers, which allows two types of users to blog and / or report offensive blog posts.
+## 3. Installing:
 
-## 4. What are the sprinkles? 
-The sprinkles for this project is an improved styling of the Blog application's Graphical User Interface.
+i. Clone the git repo
 
-## 5. When will the project be complete? 
-The project will be complete once all the MVP features have been implemented and the Blog application's Graphical User Interface has been styled.
+```
+https://github.com/AAdewunmi/Java-Blog-Web-Application.git
+```
+
+ii. Open project folder
+
+iii. Explore
+
+## 4. How To Use
+
+i. Create Database -> JavaBlogDB
+
+ii. Create tables -> web/sql/sql_create_table.txt
+
+iii. Open project in preferred IDE (I used Netbeans) 
+
+iv. Run index.jsp -> web/index.jsp
+
+v. advice.jsp: File not included in project from original author (Engineering.Org.In)
+
+vi. MyListener.java: File required to use this abstract class not included in project from original author (Engineering.Org.In).
+So I created the database and sql tables manually and included script (sql_create_table.txt) in project.
+
+Have fun
+
+😎
+
+## 5. Demo
+
+![This is an image](web/image/screenshot.png)
 
 ## 6. Adapted from: 
 
